@@ -1,7 +1,7 @@
 Blockly.defineBlocksWithJsonArray([
 {
-  "type": "sht30_read",
-  "message0": "SHT30 address %1 read %2",
+  "type": "ZX-Ir Temp_read",
+  "message0": "AMG8833 address %1 read %2",
   "args0": [
     {
       "type": "field_dropdown",
@@ -25,10 +25,6 @@ Blockly.defineBlocksWithJsonArray([
           "temperature (°C)",
           "0"
         ],
-        [
-          "humidity (%RH)",
-          "1"
-        ]
       ]
     }
   ],
